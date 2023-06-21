@@ -1,0 +1,38 @@
+menu "Example Configuration"
+
+    config WIFI_SSID
+        string "WiFi SSID"
+        default "***"
+        help
+            SSID (network name) for the example to connect to.
+
+    config WIFI_PASS
+        string "WiFi Password"
+        default "***"
+        help
+            WiFi password (WPA or WPA2) for the example to use.
+
+    config BROKER_HOST
+        string "Broker URL"
+        default "***"
+        help
+            URL of an mqtt broker which this example connects to.
+
+    config BROKER_USERNAME
+        string "Broker username"
+        default "***"
+        help
+            Username for authentication with the MQTT broker.
+
+    config BROKER_PASSWORD
+        string "Broker password"
+        default "***"
+        help
+            Password for authentication with the MQTT broker.
+
+    config BROKER_CLIENT_ID
+        string "Client ID"
+        default "***"
+        help
+            Client id to use when connecting to the MQTT broker.
+endmenu
