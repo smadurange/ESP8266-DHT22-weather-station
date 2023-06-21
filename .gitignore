@@ -1,0 +1,9 @@
+**/*.o
+**/*.elf
+**/*.hex
+
+**/*.out
+
+**/Kconfig.projbuild
+**/build/
+**/sdkconfig*
