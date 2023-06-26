@@ -1,6 +1,6 @@
-Copyright (c) 2015, SuperHouse Automation Pty Ltd
-Copyright (c) 2016, Jonathan Hartsuiker (https://github.com/jsuiker)
-Copyright (c) 2019, Fonger (https://github.com/fonger)
+// Copyright (c) 2015, SuperHouse Automation Pty Ltd
+// Copyright (c) 2016, Jonathan Hartsuiker (https://github.com/jsuiker)
+// Copyright (c) 2019, Fonger (https://github.com/fonger)
 
 #include <freertos/FreeRTOS.h>
 #include <freertos/task.h>
